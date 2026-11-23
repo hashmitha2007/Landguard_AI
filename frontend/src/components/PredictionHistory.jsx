@@ -1,7 +1,7 @@
 
 import { useEffect, useState } from "react";
 
-const BACKEND_URL = "http://127.0.0.1:8000";
+const BACKEND_URL = "https://landguard-ai-ndku.onrender.com";
 
 function PredictionHistory() {
   const [predictions, setPredictions] = useState([]);
